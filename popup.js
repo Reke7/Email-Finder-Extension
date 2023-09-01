@@ -1,5 +1,6 @@
 let findEmails = document.getElementById('findEmails');
 let list = document.getElementById('emailList');
+let uniqueEmails = new Set(); // Store unique emails
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     let emails = request.emails;
@@ -10,6 +11,13 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         list.appendChild(li);
     } else {
         emails.forEach((email) => {
+            uniqueEmails.add(email); // Add email to the Set to ensure uniqueness
+        });
+
+        // Clear the list before adding unique emails
+        list.innerHTML = '';
+
+        uniqueEmails.forEach((email) => {
             let li = document.createElement('li');
             li.innerHTML = `
                 <span>${email}</span>
