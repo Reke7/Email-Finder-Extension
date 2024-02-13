@@ -4,8 +4,8 @@
 
 - [Description](#description)
 - [Why?](#why)
-- [🚀 Quick Start](#🚀-quick-start)
-- [🤝 Contributing](#🤝-contributing)
+- [Quick Start](#🚀-quick-start)
+- [Contributing](#🤝-contributing)
     - [Clone the Repo](#clone-the-repo)
     - [Load the Extension](#load-the-extension)
     - [Submit a Pull Request](#submit-a-pull-request)
