@@ -20,7 +20,7 @@ I found it tiring to keep finding emails manually on a webpage so I built a chro
 
 ## 🚀 Quick Start
 
-* Click on the chrome extension [link](https://chromewebstore.google.com/detail/found-email)
+* Click on the chrome extension [link](https://chromewebstore.google.com/detail/found-email/jndpjdoikpdclfhmhmakhcfbieonkfbd?hl=en&authuser=0)
 * Add the chrome extension
 * Go to a webpage of your choosing
 * Click on the chrome extension icon to see if there is any email on the webpage
